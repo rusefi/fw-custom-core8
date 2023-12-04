@@ -12,5 +12,5 @@ jobs:
     permissions:
       contents: write
     with:
-      shortBoardName: XXX
-      iniFileName: rusefi_XXX.ini
+      shortBoardName: core8
+      iniFileName: rusefi_core8.ini
