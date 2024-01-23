@@ -1,5 +1,7 @@
 BOARDCPPSRC =  $(BOARD_DIR)/board_configuration.cpp
 
+BOARDINC += $(BOARD_DIR)/generated/controllers/generated
+
 SHORT_BOARD_NAME=core8
 
 # assign critical LED to a non-existent pin if you do not have it on your board
