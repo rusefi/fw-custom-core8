@@ -1159,7 +1159,7 @@
 #define show_microRusEFI_presets false
 #define show_Proteus_presets false
 #define show_test_presets true
-#define SIGNATURE_HASH 1616269530
+#define SIGNATURE_HASH 794574827
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1424,6 +1424,10 @@
 #define TS_PERF_TRACE_GET_BUFFER 'b'
 #define TS_PERF_TRACE_GET_BUFFER_char b
 #define TS_PROTOCOL "001"
+#define TS_QUERY_BOOTLOADER 'L'
+#define TS_QUERY_BOOTLOADER_char L
+#define TS_QUERY_BOOTLOADER_NONE 0
+#define TS_QUERY_BOOTLOADER_OPENBLT 1
 #define TS_QUERY_COMMAND 'Q'
 #define TS_QUERY_COMMAND_char Q
 #define TS_READ_COMMAND 'R'
@@ -1477,7 +1481,7 @@
 #define ts_show_vr_threshold_2 false
 #define ts_show_vr_threshold_all false
 #define ts_show_vr_threshold_pins true
-#define TS_SIGNATURE "rusEFI default.2024.01.30.core8.1616269530"
+#define TS_SIGNATURE "rusEFI default.2024.01.31.core8.794574827"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
