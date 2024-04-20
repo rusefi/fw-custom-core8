@@ -604,16 +604,17 @@
 #define GAUGE_NAME_WARNING_COUNTER "Warning: counter"
 #define GAUGE_NAME_WARNING_LAST "Warning: last"
 #define GAUGE_NAME_WG_POSITION "Wastegate position sensor"
-#define gear_controller_e_enum "None", "Button Shift", "Generic"
+#define gear_controller_e_enum "None", "Button Shift", "Automatic", "Generic"
 #define gear_e_GEAR_1 1
 #define gear_e_GEAR_2 2
 #define gear_e_GEAR_3 3
 #define gear_e_GEAR_4 4
 #define gear_e_NEUTRAL 0
 #define gear_e_REVERSE -1
-#define GearControllerMode_auto_enum 0="None",1="ButtonShift",2="Generic"
+#define GearControllerMode_auto_enum 0="None",2="Automatic",1="ButtonShift",3="Generic"
+#define GearControllerMode_Automatic 2
 #define GearControllerMode_ButtonShift 1
-#define GearControllerMode_Generic 2
+#define GearControllerMode_Generic 3
 #define GearControllerMode_None 0
 #define Gpio_A0 2
 #define Gpio_A1 3
@@ -1081,6 +1082,19 @@
 #define mc33810maxDwellTimer_e_DWELL_8MS 2
 #define MLQ_FIELD_HEADER_SIZE 89
 #define MLQ_HEADER_SIZE 24
+#define MsIoBox_config_s_size 4
+#define MsIoBoxId_auto_enum 0="OFF",1="ID200",2="ID220",3="ID240"
+#define MsIoBoxId_enum "Off", "ID1 (0x200)", "ID2 (0x220)", "ID3 (0x240)"
+#define MsIoBoxId_ID200 1
+#define MsIoBoxId_ID220 2
+#define MsIoBoxId_ID240 3
+#define MsIoBoxId_OFF 0
+#define MsIoBoxVss_ALL1234 3
+#define MsIoBoxVss_auto_enum 0="OFF",3="ALL1234",2="HALL34",1="VR12"
+#define MsIoBoxVss_enum "Off", "VR speed in (1, 2)", "Hall speed in (3, 4)", "All (1, 2, 3, 4)"
+#define MsIoBoxVss_HALL34 2
+#define MsIoBoxVss_OFF 0
+#define MsIoBoxVss_VR12 1
 #define operation_mode_e_FOUR_STROKE_CAM_SENSOR 2
 #define operation_mode_e_FOUR_STROKE_CRANK_SENSOR 1
 #define operation_mode_e_FOUR_STROKE_SIX_TIMES_CRANK_SENSOR 7
@@ -1193,7 +1207,7 @@
 #define show_microRusEFI_presets false
 #define show_Proteus_presets false
 #define show_test_presets true
-#define SIGNATURE_HASH 262716395
+#define SIGNATURE_HASH 822257493
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1255,9 +1269,10 @@
 #define TPS_TPS_ACCEL_CLT_CORR_TABLE 4
 #define TPS_TPS_ACCEL_TABLE 8
 #define TRACTION_CONTROL_ETB_DROP_SIZE 6
-#define transmission_controller_e_enum "None", "Simple Transmission", "GM 4L6X"
-#define TransmissionControllerMode_auto_enum 0="None",2="Gm4l6x",1="SimpleTransmissionController"
-#define TransmissionControllerMode_Gm4l6x 2
+#define transmission_controller_e_enum "None", "Simple Transmission", "Generic 4-Speed", "GM 4L6X"
+#define TransmissionControllerMode_auto_enum 0="None",2="Generic4",3="Gm4l6x",1="SimpleTransmissionController"
+#define TransmissionControllerMode_Generic4 2
+#define TransmissionControllerMode_Gm4l6x 3
 #define TransmissionControllerMode_None 0
 #define TransmissionControllerMode_SimpleTransmissionController 1
 #define TRIGGER_COMMENT "#"
@@ -1569,14 +1584,14 @@
 #define ts_show_vr_threshold_all false
 #define ts_show_vr_threshold_pins true
 #define ts_show_vvt_output true
-#define TS_SIGNATURE "rusEFI default.2024.04.20.core8.262716395"
+#define TS_SIGNATURE "rusEFI default.2024.04.20.core8.822257493"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
 #define TS_SINGLE_WRITE_COMMAND_char W
 #define TS_TEST_COMMAND 't'
 #define TS_TEST_COMMAND_char t
-#define TS_TOTAL_OUTPUT_SIZE 1728
+#define TS_TOTAL_OUTPUT_SIZE 1732
 #define TS_TRIGGER_SCOPE_CHANNEL_1_NAME "Channel 1"
 #define TS_TRIGGER_SCOPE_CHANNEL_2_NAME "Channel 2"
 #define TS_TRIGGER_SCOPE_DISABLE 5
