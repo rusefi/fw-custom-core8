@@ -1662,7 +1662,7 @@
 #define ts_show_vr_threshold_all false
 #define ts_show_vr_threshold_pins true
 #define ts_show_vvt_output true
-#define TS_SIGNATURE "rusEFI default.2024.05.24.core8.3458185808"
+#define TS_SIGNATURE "rusEFI default.2024.05.25.core8.3458185808"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
