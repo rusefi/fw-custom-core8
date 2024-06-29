@@ -1695,7 +1695,7 @@
 #define ts_show_vvt_output true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2024.06.28.core8.3011957076"
+#define TS_SIGNATURE "rusEFI main.2024.06.29.core8.3011957076"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
