@@ -1300,7 +1300,7 @@
 #define show_Proteus_presets false
 #define show_test_presets true
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 3356000737
+#define SIGNATURE_HASH 3508777749
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1495,13 +1495,14 @@
 #define ts_14_command_TS_BURN_WITHOUT_FLASH 0x15
 #define ts_14_command_TS_ETB_AUTOCAL_0 0x0E
 #define ts_14_command_TS_ETB_AUTOCAL_1 0x11
+#define ts_14_command_TS_ETB_DISABLE_JAM_DETECT 0x14
 #define ts_14_command_TS_ETB_RESET 0x0B
 #define ts_14_command_TS_ETB_START_AUTOTUNE 0x0C
 #define ts_14_command_TS_ETB_STOP_AUTOTUNE 0x10
 #define ts_14_command_TS_EXTERNAL_TRIGGER_STIMULATOR_ENABLE 0x13
 #define ts_14_command_TS_GRAB_PEDAL_UP 6
 #define ts_14_command_TS_GRAB_PEDAL_WOT 7
-#define ts_14_command_TS_RESET_MC33810 0x14
+#define ts_14_command_TS_RESET_MC33810 0x16
 #define ts_14_command_TS_RESET_TLE8888 8
 #define ts_14_command_TS_TRIGGER_STIMULATOR_DISABLE 0x0F
 #define ts_14_command_TS_TRIGGER_STIMULATOR_ENABLE 0x0D
@@ -1762,7 +1763,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2024.10.09.core8.3356000737"
+#define TS_SIGNATURE "rusEFI main.2024.10.10.core8.3508777749"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
